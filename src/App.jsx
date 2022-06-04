@@ -22,7 +22,7 @@ const App = () => {
     // Initialize our editionDrop contract
     const vote = useVote("0x028C1F6EdDC7395498934bb37fbd79b73232A61A");
     const token = useToken("0x836220A273EAaD43A1B3ff412359515E07421745");
-    const editionDrop = useEditionDrop("0xFb3178350F35080483F3afE2aF55f19Adc1b8f44 ");
+    const editionDrop = useEditionDrop("0xFb3178350F35080483F3afE2aF55f19Adc1b8f44");
 
     // A fancy function to shorten someones wallet address, no need to show the whole thing.
     const shortenAddress = (str) => {
